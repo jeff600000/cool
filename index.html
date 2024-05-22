@@ -5,22 +5,13 @@
    
    const wt = WT({
       element: document.querySelector('.wt'),
-      commands: {
-         foo() { return 'bar' },
-         bar() { return 'foo' }
-      },
       help: true,
       clear: true,
       autofocus: true,
-      banner: 'Welcome...'
+      banner: 'Welcome to the bread terminal'
    })
-   wt.print('to wt!')
-   wt.commands.hello = () => 'world'
-   const world = () => 'hello'
-   wt.addCommand(world)
    wt.addCommands({
       time() { return Date() },
-      isAwesome(who) { return who === 'wt' ? 'yes' : 'no' }
    })
 </script>
   <head/>
