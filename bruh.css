@@ -2,7 +2,6 @@
     font-family: Inconsolata;
     src: url(../fonts/Inconsolata/Inconsolata-Regular.ttf) format('truetype')
 }
-
 .wt {
     --color-scheme: dark;
     --font-size: 16px;
